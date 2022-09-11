@@ -4,15 +4,15 @@ using System.Data;
 
 namespace d3_avaliacao
 {
-    public class Menu : AcessoBanco
+    public class Menu
     {
         string email { get; set; }
         string senha { get; set; }
-        Menu receptor = new Menu();
-        string opcao1 { get; set; }
+           
+         string opcao1 { get; set; }
         string opcao2 { get; set; }
         string option1;
-        DateTime dataEntrada = new DateTime();
+        
 
         public void MenuAcesso()
         {
@@ -24,36 +24,41 @@ namespace d3_avaliacao
                 Console.WriteLine("Acessar - digite 1 ");
                 Console.WriteLine("Cancelar - digite 2 ");
 
-                opcao1 = Console.ReadLine();
 
+                do {
 
-                switch (opcao1)
-                {
-                    case "1":
-                        Console.WriteLine("Realize o login digitando seu email e senha previamente registrados: ");
-                        break;
-                    case "2":
-                        Environment.Exit(0);
-                        break;
-                }
+                    opcao1 = Console.ReadLine();
 
+                    switch (opcao1)
+                    {
+                        case "1":
+                            Console.WriteLine("Realize o login digitando seu email e senha previamente registrados: ");
+                            break;
+                        case "2":
+                            Environment.Exit(0);
+                            break;
+                        default:
+                            Console.WriteLine("Entrada Incorreta! Por favor digite 1 para realizar o login ou 2 para cancelar a operação");
+                            break;
+                    }
+                } while (opcao1 != "1" && opcao1 != "2");
 
+                bool validacao = false;
                 do
                 {
                     Console.WriteLine("E-mail:");
                     email = Console.ReadLine();
                     Console.WriteLine("Senha:");
+                    
                     senha = Console.ReadLine();
 
-                    receptor.AcessoLogin(email, senha);
+                    AcessoBanco acessoBanco = new AcessoBanco();
 
-
+                    validacao =  acessoBanco.AcessoLogin(email, senha);
 
                     if (validacao == true)
                     {
-                        Console.WriteLine("Histórico de Conexão desse usuário" + dataEntrada);
                         Console.WriteLine("O que deseja fazer?");
-
                     }
                     else
                     {
@@ -69,13 +74,13 @@ namespace d3_avaliacao
                 switch (opcao2)
                 {
                     case "1":
-                        Console.WriteLine("Realize o login digitando seu email e senha previamente registrados: ");
+                        Console.WriteLine("Usuário deslogado.");
                         break;
                     case "2":
                         Environment.Exit(0);
                         break;
                 }
-            } while (opcao2 != "1");
+            } while (opcao2 == "1");
     }
     }
 }

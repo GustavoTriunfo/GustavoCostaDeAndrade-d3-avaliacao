@@ -1,0 +1,7 @@
+﻿Compilação iniciada...
+1>------ Compilação iniciada: Projeto: d3_avaliacao, Configuração: Debug Any CPU ------
+1>Ignorando analisadores para acelerar a construção. Você pode executar o comando 'Build' ou 'Rebuild' para executar os analisadores.
+1>C:\Users\Gustavo Costa\Source\Repos\GustavoTriunfo\d3-avaliacao\d3_avaliacao\Menu.cs(14,16,14,23): warning CS0169: O campo "Menu.option1" nunca é usado
+1>d3_avaliacao -> C:\Users\Gustavo Costa\Source\Repos\GustavoTriunfo\d3-avaliacao\d3_avaliacao\bin\Debug\net6.0\d3_avaliacao.dll
+1>Projeto de compilação pronto "d3_avaliacao.csproj".
+========== Compilação: 1 bem-sucedida, 0 com falha, 0 atualizada, 0 ignorada ==========

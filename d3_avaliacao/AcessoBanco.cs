@@ -1,4 +1,6 @@
 ﻿using System.Data.SqlClient;
+using System.Diagnostics;
+using System.IO;
 
 namespace d3_avaliacao
 {
@@ -9,7 +11,7 @@ namespace d3_avaliacao
        private string senhaRegistrada { get; set; }
        private string nomeRegistrado { get; set; }
        private string cargoRegistrado {get; set;}
-    int IdRegistrado { get; set; }
+       int IdRegistrado { get; set; }
     public bool AcessoLogin(string email, string senha)
         {
            
@@ -24,18 +26,19 @@ namespace d3_avaliacao
 
             while (dataReader.Read())
             {
-                AcessoBanco chama = new AcessoBanco();
-                chama.nomeRegistrado = (string)dataReader["Nome"];
-                chama.emailRegistrado = (string)dataReader["Email"];
-                chama.senhaRegistrada = (string)dataReader["Senha"];
-                chama.cargoRegistrado = (string)dataReader["Cargo"];
-                chama.IdRegistrado = (int)dataReader["ID"];
+               
+                nomeRegistrado = (string)dataReader["Nome"];
+                emailRegistrado = (string)dataReader["Email"];
+                senhaRegistrada = (string)dataReader["Senha"];
+                cargoRegistrado = (string)dataReader["Cargo"];
+                IdRegistrado = (int)dataReader["ID"];
             }
 
             if (email == emailRegistrado && senha == senhaRegistrada)
             {
                 validacao = true;
                 Console.WriteLine("Olá, seja bem vindo " + cargoRegistrado +" "+ nomeRegistrado +" "+ IdRegistrado);
+                RegistrarAcessoUsing();
             }
             else
             {
@@ -43,6 +46,32 @@ namespace d3_avaliacao
             }
             connection.Close();
             return validacao;
+        }
+
+        //private void RegistrarAcesso()
+        //{
+
+        //    string path = Path.Combine(Directory.GetCurrentDirectory(), "output.txt");
+        //    FileStream f = new FileStream(path, FileMode.Append);
+        //    StreamWriter s = new StreamWriter(f);
+
+        //    s.WriteLine("O usuário " + nomeRegistrado + "(" + IdRegistrado + ") " + "acessou o sistema em " + DateTime.Now);
+        //    s.Close();
+        //    f.Close();
+        //}
+
+
+        private void RegistrarAcessoUsing()
+        {
+            string path = Path.Combine(Directory.GetCurrentDirectory(), "output.txt");
+            using (FileStream f = new FileStream(path, FileMode.Append))
+            {
+                using (StreamWriter s = new StreamWriter(f)) 
+                {
+
+                    s.WriteLine("O usuário " + nomeRegistrado + "(" + IdRegistrado + ") " + "acessou o sistema em " + DateTime.Now);
+                };
+            };
         }
     }
 }

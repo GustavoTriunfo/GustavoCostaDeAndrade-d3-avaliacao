@@ -20,3 +20,25 @@ C:\Users\cteds_08\Desktop\GustavoCostaDeAndrade-d3-avaliacao\d3_avaliacao\obj\De
 C:\Users\cteds_08\Desktop\GustavoCostaDeAndrade-d3-avaliacao\d3_avaliacao\obj\Debug\net6.0\d3_avaliacao.pdb
 C:\Users\cteds_08\Desktop\GustavoCostaDeAndrade-d3-avaliacao\d3_avaliacao\obj\Debug\net6.0\d3_avaliacao.genruntimeconfig.cache
 C:\Users\cteds_08\Desktop\GustavoCostaDeAndrade-d3-avaliacao\d3_avaliacao\obj\Debug\net6.0\ref\d3_avaliacao.dll
+C:\Users\Gustavo Costa\Source\Repos\GustavoTriunfo\d3-avaliacao\d3_avaliacao\obj\Debug\net6.0\d3_avaliacao.dll
+C:\Users\Gustavo Costa\Source\Repos\GustavoTriunfo\d3-avaliacao\d3_avaliacao\obj\Debug\net6.0\refint\d3_avaliacao.dll
+C:\Users\Gustavo Costa\Source\Repos\GustavoTriunfo\d3-avaliacao\d3_avaliacao\obj\Debug\net6.0\d3_avaliacao.pdb
+C:\Users\Gustavo Costa\Source\Repos\GustavoTriunfo\d3-avaliacao\d3_avaliacao\obj\Debug\net6.0\d3_avaliacao.csproj.AssemblyReference.cache
+C:\Users\Gustavo Costa\Source\Repos\GustavoTriunfo\d3-avaliacao\d3_avaliacao\obj\Debug\net6.0\d3_avaliacao.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Gustavo Costa\Source\Repos\GustavoTriunfo\d3-avaliacao\d3_avaliacao\obj\Debug\net6.0\d3_avaliacao.AssemblyInfoInputs.cache
+C:\Users\Gustavo Costa\Source\Repos\GustavoTriunfo\d3-avaliacao\d3_avaliacao\obj\Debug\net6.0\d3_avaliacao.AssemblyInfo.cs
+C:\Users\Gustavo Costa\Source\Repos\GustavoTriunfo\d3-avaliacao\d3_avaliacao\obj\Debug\net6.0\d3_avaliacao.csproj.CoreCompileInputs.cache
+C:\Users\Gustavo Costa\Source\Repos\GustavoTriunfo\d3-avaliacao\d3_avaliacao\bin\Debug\net6.0\d3_avaliacao.exe
+C:\Users\Gustavo Costa\Source\Repos\GustavoTriunfo\d3-avaliacao\d3_avaliacao\bin\Debug\net6.0\d3_avaliacao.deps.json
+C:\Users\Gustavo Costa\Source\Repos\GustavoTriunfo\d3-avaliacao\d3_avaliacao\bin\Debug\net6.0\d3_avaliacao.runtimeconfig.json
+C:\Users\Gustavo Costa\Source\Repos\GustavoTriunfo\d3-avaliacao\d3_avaliacao\bin\Debug\net6.0\d3_avaliacao.dll
+C:\Users\Gustavo Costa\Source\Repos\GustavoTriunfo\d3-avaliacao\d3_avaliacao\bin\Debug\net6.0\d3_avaliacao.pdb
+C:\Users\Gustavo Costa\Source\Repos\GustavoTriunfo\d3-avaliacao\d3_avaliacao\bin\Debug\net6.0\System.Data.SqlClient.dll
+C:\Users\Gustavo Costa\Source\Repos\GustavoTriunfo\d3-avaliacao\d3_avaliacao\bin\Debug\net6.0\runtimes\win-arm64\native\sni.dll
+C:\Users\Gustavo Costa\Source\Repos\GustavoTriunfo\d3-avaliacao\d3_avaliacao\bin\Debug\net6.0\runtimes\win-x64\native\sni.dll
+C:\Users\Gustavo Costa\Source\Repos\GustavoTriunfo\d3-avaliacao\d3_avaliacao\bin\Debug\net6.0\runtimes\win-x86\native\sni.dll
+C:\Users\Gustavo Costa\Source\Repos\GustavoTriunfo\d3-avaliacao\d3_avaliacao\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Gustavo Costa\Source\Repos\GustavoTriunfo\d3-avaliacao\d3_avaliacao\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Gustavo Costa\Source\Repos\GustavoTriunfo\d3-avaliacao\d3_avaliacao\obj\Debug\net6.0\d3_avaliacao.csproj.CopyComplete
+C:\Users\Gustavo Costa\Source\Repos\GustavoTriunfo\d3-avaliacao\d3_avaliacao\obj\Debug\net6.0\d3_avaliacao.genruntimeconfig.cache
+C:\Users\Gustavo Costa\Source\Repos\GustavoTriunfo\d3-avaliacao\d3_avaliacao\obj\Debug\net6.0\ref\d3_avaliacao.dll
