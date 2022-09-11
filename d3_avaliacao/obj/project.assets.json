@@ -476,9 +476,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Gustavo Costa\\Desktop\\prova d3 pull que quase destruiu\\d3_avaliacao\\d3_avaliacao.csproj",
-      "projectName": "d3_avaliacao",
-      "projectPath": "C:\\Users\\Gustavo Costa\\Desktop\\prova d3 pull que quase destruiu\\d3_avaliacao\\d3_avaliacao.csproj",
+      "projectUniqueName": "C:\\Users\\Gustavo Costa\\Desktop\\prova d3 pull que quase destruiu\\d3_avaliacao\\GustavoCostaDeAndrade-d3-avaliacao.csproj",
+      "projectName": "GustavoCostaDeAndrade-d3-avaliacao",
+      "projectPath": "C:\\Users\\Gustavo Costa\\Desktop\\prova d3 pull que quase destruiu\\d3_avaliacao\\GustavoCostaDeAndrade-d3-avaliacao.csproj",
       "packagesPath": "C:\\Users\\Gustavo Costa\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Gustavo Costa\\Desktop\\prova d3 pull que quase destruiu\\d3_avaliacao\\obj\\",
       "projectStyle": "PackageReference",

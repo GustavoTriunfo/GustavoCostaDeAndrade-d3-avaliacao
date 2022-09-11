@@ -6,12 +6,12 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v6.0": {
-      "d3_avaliacao/1.0.0": {
+      "GustavoCostaDeAndrade-d3-avaliacao/1.0.0": {
         "dependencies": {
           "System.Data.SqlClient": "4.8.3"
         },
         "runtime": {
-          "d3_avaliacao.dll": {}
+          "GustavoCostaDeAndrade-d3-avaliacao.dll": {}
         }
       },
       "Microsoft.NETCore.Platforms/3.1.0": {},
@@ -92,7 +92,7 @@
     }
   },
   "libraries": {
-    "d3_avaliacao/1.0.0": {
+    "GustavoCostaDeAndrade-d3-avaliacao/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
