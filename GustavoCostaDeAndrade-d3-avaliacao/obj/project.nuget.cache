@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "+U3Eo/mgVRrm9ammNfRPyWQ/zzl34JNsRDfeWD7Bil545T2k2o5rABjGLwfa1R62AjFjDJW0/7AVrJF8iaz4ZQ==",
+  "dgSpecHash": "epLolyV+RbeRMktdlzsKGxaZ9POq98sfqI6+Elxie5Y0CS6xl2kyyRk3E4OErSfoCBAH1YU4ubseyijPRdSC3g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Gustavo Costa\\Desktop\\prova d3 pull que quase destruiu\\d3_avaliacao\\GustavoCostaDeAndrade-d3-avaliacao.csproj",
+  "projectFilePath": "C:\\Users\\Gustavo Costa\\Desktop\\prova d3 pull que quase destruiu\\GustavoCostaDeAndrade-d3-avaliacao\\GustavoCostaDeAndrade-d3-avaliacao.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Gustavo Costa\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\Gustavo Costa\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
